@@ -6,8 +6,10 @@ import time
 from utils import get_download_path
 import random
 from utils2 import *
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import tensorflow as tf
 import warnings
+
+ImageDataGenerator = tf.keras.preprocessing.image.ImageDataGenerator
 
 warnings.filterwarnings('ignore')
 
